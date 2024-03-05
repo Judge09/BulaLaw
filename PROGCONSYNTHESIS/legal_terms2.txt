@@ -1,0 +1,10 @@
+Contract Law|The branch of law that deals with agreements between parties|Manila
+Tort Law|The area of law that covers civil wrongs and damages|Quezon City
+Intellectual Property|Legal rights over creations of the mind, such as inventions, literary and artistic works, designs, and symbols|Makati
+Trademark|A recognizable sign, design, or expression which identifies products or services|Taguig
+Statute|A written law passed by a legislative body|Pasig
+Negligence|Failure to take proper care in doing something|Caloocan
+Injunction|A court order requiring a party to do or refrain from doing a specific act|Mandaluyong
+Fraud|Wrongful or criminal deception intended to result in financial or personal gain|Parañaque
+Arbitration|The process of resolving disputes outside the courts|Valenzuela
+Appeal|A request to a higher court for a review of the decision of a lower court|Las Piñas
