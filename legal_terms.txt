@@ -1,0 +1,3 @@
+contract|A legally binding agreement between two or more parties.|General
+tort|A civil wrong that causes harm or loss, leading to legal liability.|General
+constitution|The fundamental law of a country, establishing the principles and structure of government.|Country-specific
