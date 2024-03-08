@@ -1,0 +1,90 @@
+START
+
+# Import necessary modules
+DECLARE tkinter module as tk           # Module for creating GUI applications
+DECLARE customtkinter module            # Module for customizing tkinter widgets
+DECLARE ImageTk and Image from PIL module  # Module for working with images
+DECLARE geocoder module                 # Module for fetching user's location based on IP geolocation
+
+# Function to fetch user's location based on IP geolocation
+FUNCTION get_user_location():
+    TRY
+        USE geocoder.ip('me') to get user's city
+        RETURN the city
+    EXCEPT Exception AS e
+        PRINT "Error fetching user's location:", e
+        RETURN an empty string
+
+# Function to load legal terms from a file
+FUNCTION load_legal_terms(file_path):
+    INITIALIZE an empty dictionary legal_terms
+    TRY
+        OPEN the file at file_path for reading
+        FOR EACH line IN the file
+            STRIP leading and trailing whitespaces from the line
+            IF line is not empty
+                SPLIT the line based on '|'
+                IF the length of parts is 4
+                    EXTRACT name, description, location, link from parts
+                    ADD a new entry to legal_terms with name as key and a dictionary containing description, location, and link as value
+                ELSE
+                    PRINT "Error parsing line:", line
+    EXCEPT FileNotFoundError
+        PRINT "File not found."
+    RETURN legal_terms
+
+# Function to search legal terms based on keyword and user's location
+FUNCTION search(legal_terms, keyword, user_location):
+    CONVERT keyword to lowercase
+    INITIALIZE an empty list results
+    FOR EACH name, data IN legal_terms.items():
+        CONVERT name, description, and location to lowercase
+        IF keyword is in name or description
+            IF "philippine" is in location or user_location is in location
+                APPEND a tuple containing name, description, location, and link to results
+    RETURN results
+
+# Function to handle button click event
+FUNCTION button_callback():
+    GET the keyword from entry1
+    GET the user's current location using get_user_location function
+    PERFORM a search using search function with legal_terms, keyword, and user_location
+    DELETE previous search results from result_text
+    IF search_results is not empty
+        UPDATE num_results_label with the number of results found
+        UPDATE user_location_label with the user's location
+        FOR EACH result IN search_results
+            DISPLAY result details in result_text
+            CREATE a "Visit Website" button associated with the link
+            INSERT the button into result_text
+    ELSE
+        DISPLAY "No matching terms found" in num_results_label
+        CLEAR user_location_label
+
+# Function to open a website link in a web browser
+FUNCTION open_website(link):
+    OPEN the provided link in a web browser
+
+# Create the main application window
+CREATE a tkinter window object
+SET the window geometry to 1000x500
+SET the window title to "BulaLaw"
+ALLOW the window to be resizable
+
+# Create GUI elements
+CREATE a frame for search entry and button
+CREATE an entry widget for user input
+CREATE a button widget for performing search action
+CREATE a frame for displaying user's location
+CREATE a label for displaying user's location
+CREATE a frame for displaying search results
+CREATE a label for displaying number of results
+CREATE a text widget for displaying search results
+
+# Load legal terms from a file
+LOAD legal terms from a file
+
+# Start the tkinter main event loop
+START the tkinter mainloop
+
+STOP
