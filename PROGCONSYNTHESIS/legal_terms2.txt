@@ -1,10 +1,32 @@
-Contract Law|The branch of law that deals with agreements between parties|Manila
-Tort Law|The area of law that covers civil wrongs and damages|Quezon City
-Intellectual Property|Legal rights over creations of the mind, such as inventions, literary and artistic works, designs, and symbols|Makati
-Trademark|A recognizable sign, design, or expression which identifies products or services|Taguig
-Statute|A written law passed by a legislative body|Pasig
-Negligence|Failure to take proper care in doing something|Caloocan
-Injunction|A court order requiring a party to do or refrain from doing a specific act|Mandaluyong
-Fraud|Wrongful or criminal deception intended to result in financial or personal gain|Parañaque
-Arbitration|The process of resolving disputes outside the courts|Valenzuela
-Appeal|A request to a higher court for a review of the decision of a lower court|Las Piñas
+Leasehold Law|Regulates the rights and obligations of lessors and lessees in leasing agreements.|Manila|manila.com
+City Ordinance on Noise Pollution|Sets limits and regulations on noise levels within the city for the preservation of public health and welfare.|Manila|manila.com
+Local Tax Code|Specifies the taxes imposed on businesses, properties, and other entities within the city jurisdiction.|Manila|manila.com
+Zoning Ordinance|Regulates land use and development within the city, determining areas for residential, commercial, and industrial purposes.|Quezon City|quezoncity.com
+Pedestrian Safety Act|Imposes regulations and penalties to ensure pedestrian safety on roads and sidewalks.|Quezon City|quezoncity.com
+Barangay Code|Governs the functions and responsibilities of barangay officials and institutions within the city.|Quezon City|quezoncity.com
+Business Permit and Licensing Code|Regulates the issuance of permits and licenses for businesses operating within the city.|Makati|makati.com
+Code on Building Standards|Specifies the requirements and standards for construction and renovation of buildings within the city limits.|Makati|makati.com
+Traffic Management Ordinance|Enforces rules and regulations to manage traffic flow and ensure road safety within the city.|Makati|makati.com
+Urban Development Code|Guides the planning, development, and utilization of urban spaces within the city.|Taguig|taguig.com
+Waste Management Ordinance|Regulates the collection, disposal, and recycling of waste materials to maintain cleanliness and sanitation within the city.|Taguig|taguig.com
+Public Parks and Recreation Act|Defines the management and maintenance of public parks and recreational facilities within the city.|Taguig|taguig.com
+Public Safety Code|Sets regulations and standards for ensuring public safety and emergency response within the city.|Pasig|pasig.com
+Code on Sanitation and Hygiene|Imposes standards and measures to maintain cleanliness and hygiene in public areas and facilities within the city.|Pasig|pasig.com
+Ordinance on Urban Farming|Promotes and regulates urban farming activities within the city to enhance food security and sustainability.|Pasig|pasig.com
+Code on Animal Welfare|Defines regulations and standards for the treatment and welfare of animals within the city jurisdiction.|Caloocan|caloocan.com
+Code on Public Health|Implements measures and protocols to safeguard public health and prevent the spread of diseases within the city.|Caloocan|caloocan.com
+Ordinance on Street Vending|Regulates street vending activities to ensure public safety and orderly commerce within the city.|Caloocan|caloocan.com
+Housing and Urban Development Code|Addresses housing needs and urban development initiatives within the city, including resettlement programs and housing projects.|Mandaluyong|mandaluyong.com
+Ordinance on Fire Safety|Imposes regulations and standards for fire prevention and safety measures within the city.|Mandaluyong|mandaluyong.com
+Code on Child Protection|Specifies measures and protocols for safeguarding the welfare and rights of children within the city jurisdiction.|Mandaluyong|mandaluyong.com
+Code on Business Ethics|Sets guidelines and standards for ethical business practices and conduct within the city.|Parañaque|parañaque.com
+Ordinance on Coastal Protection|Implements measures to preserve and protect coastal areas and marine ecosystems within the city.|Parañaque|parañaque.com
+Code on Public Transportation|Regulates public transportation services and ensures commuter safety and convenience within the city.|Parañaque|parañaque.com
+Code on Labor Standards|Specifies minimum labor standards and regulations for workplaces within the city, including wages, working hours, and occupational safety.|Valenzuela|valenzuela.com
+Ordinance on Water Conservation|Promotes water conservation practices and regulates water usage within the city to ensure sustainable water resources.|Valenzuela|valenzuela.com
+Code on Community Policing|Defines protocols and initiatives for community involvement in crime prevention and public safety within the city.|Valenzuela|valenzuela.com
+Code on Waste Reduction|Promotes waste reduction practices and implements recycling and composting programs within the city.|Las Piñas|laspinas.com
+Ordinance on Air Quality Control|Imposes regulations and measures to control air pollution and improve air quality within the city.|Las Piñas|laspinas.com
+Code on Cultural Preservation|Preserves and promotes the cultural heritage and traditions of Las Piñas through heritage conservation initiatives and programs.|Las Piñas|laspinas.com
+Revised Penal Code|Defines criminal offenses and penalties applicable throughout the Philippines.|Philippines|philippines.com
+Civil Code of the Philippines|Governs civil rights and obligations, contracts, property, and other civil matters in the Philippines.|Philippines|philippines.com
